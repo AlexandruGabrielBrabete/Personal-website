@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexandru Brabete - Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Welcome to my personal website!</h1>
+      <button id="theme-toggle">Switch Theme</button>
+    </div>
+  </header>
+
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Alexandru Brabete</p>
+    <p><strong>Email:</strong> <a href="mailto:alexandrubrabete@yahoo.com">alexandrubrabete@yahoo.com</a></p>
+    <p><strong>Status:</strong> Student, Technical University of Cluj Napoca</p>
+  </section>
+
+  <section id="game">
+    <h2>Guess the Number Game</h2>
+    <input type="number" id="guess-input" placeholder="Enter your guess (1-20)" min="1" max="20">
+    <button onclick="checkGuess()">Check Guess</button>
+    <button onclick="resetGame()">Reset Game</button>
+    <p id="game-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alexandru Brabete</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
