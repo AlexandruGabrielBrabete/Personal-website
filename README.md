@@ -72,3 +72,7 @@ You can deploy this site using:
 To deploy with GitHub Pages:
 - Push to the `main` branch.
 - Go to repository settings → Pages → Set source to `main` and root folder.
+
+## License
+
+This project is provided for academic and educational purposes. Distribution and reuse allowed with proper attribution.
