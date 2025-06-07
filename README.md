@@ -73,6 +73,13 @@ To deploy with GitHub Pages:
 - Push to the `main` branch.
 - Go to repository settings → Pages → Set source to `main` and root folder.
 
+## Author
+
+**Name:** Alexandru-Gabriel Brabete  
+**University:** Technical University of Cluj-Napoca  
+**Field:** Electronics, Telecommunications and Information Technology  
+**Year:** 2nd year.
+
 ## License
 
 This project is provided for academic and educational purposes. Distribution and reuse allowed with proper attribution.
